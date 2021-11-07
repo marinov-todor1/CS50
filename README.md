@@ -30,10 +30,10 @@
     > Complete the implementation of runoff.c in such a way that it simulates a runoff election.
     
 ### 4. Memory - https://cs50.harvard.edu/x/2021/weeks/4/
-  - Memory Lab - **Objective: Read a WAV file bit by bit and multiply the values by a given factor to increase/decrease the volume**
+  - Memory Lab - > Read a WAV file bit by bit and multiply the values by a given factor to increase/decrease the volume
   - Memory Problem sets
-    1. Filters - **Objective: Iterate over each pixel of a given image and adjust the RGB values to result in a predefined effect - Blur, Sepia, Grayscale, etc.**
-    2. Recover - **Objective: Read a deleted memory card (with deleted pointers to the start of the files), identify the beginning of each .jpeg and write each found .jpeg in a new file.**
+    1. Filters - > Iterate over each pixel of a given image and adjust the RGB values to result in a predefined effect - Blur, Sepia, Grayscale, etc.
+    2. Recover - > Read a deleted memory card (with deleted pointers to the start of the files), identify the beginning of each .jpeg and write each found .jpeg in a new file.
     
 ### 5. Data structures - https://cs50.harvard.edu/x/2021/weeks/5/
   - Data structures Lab - **Objective: Practice recursion and memory management with malloc/free**  
