@@ -1,7 +1,7 @@
 # CS50
-### This repository is a collection of my course work for the CS50x Introduction to Computer Science course
+## This repository is a collection of my course work for the CS50x Introduction to Computer Science course
 
-1. C - https://cs50.harvard.edu/x/2021/weeks/1/
+### 1. C - https://cs50.harvard.edu/x/2021/weeks/1/
   - C Lab - **Objective: Practice operators**  
   > Write a C program, which calculates the number of years required for the population to grow from the start size to the end size, given a fixed birth/death pattern
   
@@ -11,7 +11,7 @@
     2. Credit card - **Objective: Practice loops and conditional statements**  
     > Write a program that prompts the user for a credit card number and then reports (via printf) whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein.
     
-2. Arrays - https://cs50.harvard.edu/x/2021/weeks/2/
+### 2. Arrays - https://cs50.harvard.edu/x/2021/weeks/2/
   - Arrays Lab - **Objecitive: Practice indexing into arrays, strings and ASCII**  
   > Complete the implementation of scrabble.c, such that it determines the winner of a short scrabble-like game, where two players each enter their word, and the higher scoring player wins.
   - Arrays Problem sets
