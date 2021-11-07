@@ -72,7 +72,7 @@
   - Flask Problem set
     1. Finance - **Objective: Implement a website via which users can “buy” and “sell” stocks, keep track of their portfolio holdings and bottomline result.**
     
-### Final Project  
+## Final Project  
   **Requirements**
   > The final project is your opportunity to take your newfound savvy with programming out for a spin and develop your very own piece of software. So long as your project draws upon this course’s lessons, the nature of your project is entirely up to you.
   **Short Description**  
