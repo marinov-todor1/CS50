@@ -3,7 +3,7 @@
 
 1. C - https://cs50.harvard.edu/x/2021/weeks/1/
   - C Lab - **Objective: Practice operators**  
-    > Short Description: Write a C program, which calculates the number of years required for the population to grow from the start size to the end size, given a fixed birth/death pattern
+  > Short Description: Write a C program, which calculates the number of years required for the population to grow from the start size to the end size, given a fixed birth/death pattern
   
   - C Problem sets
     1. Mario - **Objective: Practice For loops**  
