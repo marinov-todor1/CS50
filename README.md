@@ -1,5 +1,5 @@
 # CS50
-This repository is a collection of my course work for the CS50x Introduction to Computer Science course
+### This repository is a collection of my course work for the CS50x Introduction to Computer Science course
 
 1. C - https://cs50.harvard.edu/x/2021/weeks/1/
   - C Lab - ***Practice operators*** Write a C program, which calculates the number of years required for the population to grow from the start size to the end size, given a fixed birth/death pattern
@@ -54,6 +54,6 @@ This repository is a collection of my course work for the CS50x Introduction to 
   - Flask Problem set
     1. Finance - ***Implement a website via which users can “buy” and “sell” stocks, keep track of their portfolio holdings and bottomline result.***
     
-###Final Project - Here "requirements" are the result to draws upon this course’s lessons. Language, infrastructure and all kinds of tools are welcome.
+### Final Project - Here "requirements" are the result to draws upon this course’s lessons. Language, infrastructure and all kinds of tools are welcome.
   
 
