@@ -33,39 +33,46 @@
   - Memory Lab
   > Read a WAV file bit by bit and multiply the values by a given factor to increase/decrease the volume
   - Memory Problem sets
-    1. Filters > Iterate over each pixel of a given image and adjust the RGB values to result in a predefined effect - Blur, Sepia, Grayscale, etc.
-    2. Recover - > Read a deleted memory card (with deleted pointers to the start of the files), identify the beginning of each .jpeg and write each found .jpeg in a new file.
+    1. Filters 
+    > Iterate over each pixel of a given image and adjust the RGB values to result in a predefined effect - Blur, Sepia, Grayscale, etc.
+    2. Recover
+    > Read a deleted memory card (deleted pointers to the start of each file), identify the beginning of each .jpeg and write each found .jpeg into a new file.
     
 ### 5. Data structures - https://cs50.harvard.edu/x/2021/weeks/5/
   - Data structures Lab - **Objective: Practice recursion and memory management with malloc/free**  
   > Complete the implementation of inheritance.c, such that it creates a family of a specified generation size and assigns blood type alleles to each family member. 
   - Data structures Problem set
-    1. Speller - ***Create optimal hash function to store a dictionary in a hash table*** Implement, in order, load, hash, size, check, and unload as efficiently as possible using a hash table in such a way that TIME IN load, TIME IN check, TIME IN size, and TIME IN unload are all minimized.
+    1. Speller - **Objective: Create optimal hash function to store a dictionary in a hash table** 
+    > Implement, in order, load, hash, size, check, and unload as efficiently as possible using a hash table in such a way that TIME IN load, TIME IN check, TIME IN size, and TIME IN unload are all minimized.
     
-6. Python - https://cs50.harvard.edu/x/2021/weeks/6/
-  - Python Lab - ***In Python, read data from a csv file, store the data in dicts and simulate a tournament*** Complete the implementation of tournament.py, such that it simulates a number of tournaments and outputs each team’s probability of winning.
+### 6. Python - https://cs50.harvard.edu/x/2021/weeks/6/
+  - Python Lab - **Objective: In Python, read data from a csv file, store the data in dicts and simulate a tournament** 
+  > Complete the implementation of tournament.py, such that it simulates a number of tournaments and outputs each team’s probability of winning.
   - Python Problem Sets
     1. Mario ***Solve the same problem, once again, but in Python***
     2. Cash ***Solve the same problem, once again, but in Python***
     3. Readability ***Solve the same problem, once again, but in Python***
     4. DNA ***Solve the same problem, once again, but in Python***
     
-7. SQL - https://cs50.harvard.edu/x/2021/weeks/7/
-  - SQL Lab - ***Create a number of SQL queries (fundamental ones) to answer eight questions***
+### 7. SQL - https://cs50.harvard.edu/x/2021/weeks/7/
+  - SQL Lab - **Objective: Create a number of SQL queries (fundamental ones) to answer eight questions**
   - SQL Problem sets
-    1. Movies - ***Create a number of SQL queries to answer eight questions*** For each of the given problems, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query, though you may nest other queries inside of your query.
-    2. Fiftyville - ***Practice problem solving, writing SQL queries and JOIN tables*** - Given a db with 3 table, all having some piece of a riddle, write queries to drive inferences and ultimately a conclusion.
+    1. Movies - **Objective: Create a number of SQL queries to answer eight questions** 
+    > For each of the given problems, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query, though you may nest other queries inside of your query.
+    2. Fiftyville - **Objective: Practice problem solving, writing SQL queries and JOIN tables**  
+    > Given a db with 3 table, all having some piece of a riddle, write queries to drive inferences and ultimately a conclusion.
     
-8. HTML, CSS, JavaScript - https://cs50.harvard.edu/x/2021/weeks/8/
-  - Lab - ***Create a webpage allowing users to answer simple Trivia questions***
+### 8. HTML, CSS, JavaScript - https://cs50.harvard.edu/x/2021/weeks/8/
+  - Lab - **Objective: Create a webpage allowing users to answer simple Trivia questions**
   - Problem set
-    1. Homepage - ***Create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.***
+    1. Homepage - **Objective: Create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.**
     
-9. Flask - https://cs50.harvard.edu/x/2021/weeks/9/
-  - Flask Lab - ***Complete the implementation of a web application to let users store and keep track of birthdays.***
+### 9. Flask - https://cs50.harvard.edu/x/2021/weeks/9/
+  - Flask Lab - **Objective: Complete the implementation of a web application to let users store and keep track of birthdays.**
   - Flask Problem set
-    1. Finance - ***Implement a website via which users can “buy” and “sell” stocks, keep track of their portfolio holdings and bottomline result.***
+    1. Finance - **Objective: Implement a website via which users can “buy” and “sell” stocks, keep track of their portfolio holdings and bottomline result.**
     
-### Final Project - Here "requirements" are the result to draws upon this course’s lessons. Language, infrastructure and all kinds of tools are welcome.
+### Final Project
+  > **The final project is your opportunity to take your newfound savvy with programming out for a spin and develop your very own piece of software. So long as your project draws upon this course’s lessons, the nature of your project is entirely up to you.**
   
 
