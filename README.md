@@ -75,5 +75,15 @@
 ### Final Project  
   **Requirements**
   > The final project is your opportunity to take your newfound savvy with programming out for a spin and develop your very own piece of software. So long as your project draws upon this course’s lessons, the nature of your project is entirely up to you.
+  **Short Description**  
+  The application's goal is to allow dentists to send automated alerts to patients for overdue profilactic exams.  
+  Features:
+  0. Register new users
+  1. Login automatically, after registration
+  2. Create patient records
+  3. Schedule next visits
+  4. Automatically send notifications to the patient 14 days prior to the due date
+  5. Have a summary for the upcoming schedule (next 14 days)
+  6. See the status of the alerts for each upcoming visit 
   
 
