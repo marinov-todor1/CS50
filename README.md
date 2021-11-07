@@ -20,20 +20,24 @@
     3. Substitution - **Objective: Practice string indexing and manipulation**  
     > Design and implement a program, substitution, that encrypts messages using a substitution cipher.
     
-3. Algorithms - https://cs50.harvard.edu/x/2021/weeks/3/
-  - Algorithms Lab - ***Understan how different algorithms work*** Provided to you are three already-compiled C programs, sort1, sort2, and sort3. Each of these programs implements a different sorting algorithm: selection sort, bubble sort, or merge sort. Your task is to determine which sorting algorithm is used by each file.
+### 3. Algorithms - https://cs50.harvard.edu/x/2021/weeks/3/
+  - Algorithms Lab - **Objective: Understan how different algorithms work**  
+  > Provided to you are three already-compiled C programs, sort1, sort2, and sort3. Each of these programs implements a different sorting algorithm: selection sort, bubble sort, or merge sort. Your task is to determine which sorting algorithm is used by each file.
   - Algorithms Problem sets
-    1. Plurality - ***Practice working with structures*** - Complete the implementation of plurality.c in such a way that the program simulates a plurality vote election.
-    2. Runoff - ***Practice working with structures and two dimensional arrays*** - Complete the implementation of runoff.c in such a way that it simulates a runoff election.
+    1. Plurality - **Objective: Practice working with structures**  
+    > Complete the implementation of plurality.c in such a way that the program simulates a plurality vote election.
+    2. Runoff - **Objective: Practice working with structures and two dimensional arrays**  
+    > Complete the implementation of runoff.c in such a way that it simulates a runoff election.
     
-4. Memory - https://cs50.harvard.edu/x/2021/weeks/4/
-  - Memory Lab - ***Read a WAV file bit by bit and multiply the values by a given factor to increase/decrease the volume***
+### 4. Memory - https://cs50.harvard.edu/x/2021/weeks/4/
+  - Memory Lab - **Objective: Read a WAV file bit by bit and multiply the values by a given factor to increase/decrease the volume**
   - Memory Problem sets
-    1. Filters - ***Iterate over each pixel of a given image and adjust the RGB values to result in a predefined effect - Blur, Sepia, Grayscale, etc.***
-    2. Recover - ***Read a deleted memory card (with deleted pointers to the start of the files), identify the beginning of each .jpeg and write each found .jpeg in a new file.***
+    1. Filters - **Objective: Iterate over each pixel of a given image and adjust the RGB values to result in a predefined effect - Blur, Sepia, Grayscale, etc.**
+    2. Recover - **Objective: Read a deleted memory card (with deleted pointers to the start of the files), identify the beginning of each .jpeg and write each found .jpeg in a new file.**
     
-5. Data structures - https://cs50.harvard.edu/x/2021/weeks/5/
-  - Data structures Lab - ***Practice recursion and memory management with malloc/free*** Complete the implementation of inheritance.c, such that it creates a family of a specified generation size and assigns blood type alleles to each family member. 
+### 5. Data structures - https://cs50.harvard.edu/x/2021/weeks/5/
+  - Data structures Lab - **Objective: Practice recursion and memory management with malloc/free**  
+  > Complete the implementation of inheritance.c, such that it creates a family of a specified generation size and assigns blood type alleles to each family member. 
   - Data structures Problem set
     1. Speller - ***Create optimal hash function to store a dictionary in a hash table*** Implement, in order, load, hash, size, check, and unload as efficiently as possible using a hash table in such a way that TIME IN load, TIME IN check, TIME IN size, and TIME IN unload are all minimized.
     
