@@ -3,13 +3,13 @@
 
 1. C - https://cs50.harvard.edu/x/2021/weeks/1/
   - C Lab - **Objective: Practice operators**  
-  > Short Description: Write a C program, which calculates the number of years required for the population to grow from the start size to the end size, given a fixed birth/death pattern
+  > Write a C program, which calculates the number of years required for the population to grow from the start size to the end size, given a fixed birth/death pattern
   
   - C Problem sets
     1. Mario - **Objective: Practice For loops**  
-    > Short Description: Write a CLI program which prompts the user for desired height and prints mario-like pyramid in the console
+    > Write a CLI program which prompts the user for desired height and prints mario-like pyramid in the console
     2. Credit card - **Objective: Practice loops and conditional statements**  
-    > Short Description: Write a program that prompts the user for a credit card number and then reports (via printf) whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein.
+    > Write a program that prompts the user for a credit card number and then reports (via printf) whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein.
     
 2. Arrays - https://cs50.harvard.edu/x/2021/weeks/2/
   - Arrays Lab - ***Practice indexing into arrays, strings and ASCII*** complete the implementation of scrabble.c, such that it determines the winner of a short scrabble-like game, where two players each enter their word, and the higher scoring player wins.
