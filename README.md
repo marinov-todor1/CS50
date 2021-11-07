@@ -2,8 +2,9 @@
 ### This repository is a collection of my course work for the CS50x Introduction to Computer Science course
 
 1. C - https://cs50.harvard.edu/x/2021/weeks/1/
-  - C Lab - ***Objective: Practice operators***  
+  - C Lab - **Objective: Practice operators**  
   Write a C program, which calculates the number of years required for the population to grow from the start size to the end size, given a fixed birth/death pattern
+  
   - C Problem sets
     1. Mario - ***Practice For loops*** write a CLI program which prompts the user for desired height and prints mario-like pyramid in the console
     2. Credit card - ***Practice loops and conditional statements*** write a program that prompts the user for a credit card number and then reports (via printf) whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein.
