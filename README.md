@@ -12,10 +12,13 @@
     > Write a program that prompts the user for a credit card number and then reports (via printf) whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein.
     
 2. Arrays - https://cs50.harvard.edu/x/2021/weeks/2/
-  - Arrays Lab - ***Practice indexing into arrays, strings and ASCII*** complete the implementation of scrabble.c, such that it determines the winner of a short scrabble-like game, where two players each enter their word, and the higher scoring player wins.
+  - Arrays Lab - **Objecitive: Practice indexing into arrays, strings and ASCII**  
+  > Complete the implementation of scrabble.c, such that it determines the winner of a short scrabble-like game, where two players each enter their word, and the higher scoring player wins.
   - Arrays Problem sets
-    1. Readability - ***Practice string indexing*** Design and implement a program, readability, that computes the Coleman-Liau index of the text. (what reading grade is the text)
-    2. Substitution - ***Practice string indexing and manipulation*** Design and implement a program, substitution, that encrypts messages using a substitution cipher.
+    1. Readability - **Objective: Practice string indexing**  
+    > Design and implement a program, readability, that computes the Coleman-Liau index of the text. (what reading grade is the text)
+    3. Substitution - **Objective: Practice string indexing and manipulation**  
+    > Design and implement a program, substitution, that encrypts messages using a substitution cipher.
     
 3. Algorithms - https://cs50.harvard.edu/x/2021/weeks/3/
   - Algorithms Lab - ***Understan how different algorithms work*** Provided to you are three already-compiled C programs, sort1, sort2, and sort3. Each of these programs implements a different sorting algorithm: selection sort, bubble sort, or merge sort. Your task is to determine which sorting algorithm is used by each file.
