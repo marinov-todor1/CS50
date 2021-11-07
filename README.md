@@ -78,7 +78,8 @@
   **Short Description**  
   The application's goal is to allow dentists to send automated alerts to patients for overdue profilactic exams.  
   
-  **Features:**  
+  **Main Features:**  
+  
   0. Register new users
   1. Login automatically, after registration
   2. Create patient records
