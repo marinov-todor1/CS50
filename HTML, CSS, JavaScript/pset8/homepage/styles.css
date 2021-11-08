@@ -1,0 +1,99 @@
+body {
+    background-color: #d5d7db;
+}
+
+img {
+  border-radius: 5%;
+  width:65%;
+}
+
+#NameImage {
+  background-color: teal;
+}
+
+nav {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.container-sm {
+  background-color: #d5d7db;
+  padding-top: 20px;
+  padding-bottom: 20px ;
+}
+
+.col-lg-8 {
+  background-color: #abaeb3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-lg-4 {
+  background-color: #0b6bba;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-sm-10 {
+  padding-bottom: 20px;
+  color: #1c93b8;
+}
+
+.Interests {
+  padding-left: 120px;
+  color: #1c93b8;
+}
+
+.Chronology {
+  color: #1c93b8;
+}
+
+.date {
+  color: #1c93b8;
+}
+
+a:visited {
+  color: pink;
+}
+
+a {
+  color: #03ffd9;
+}
+
+hr {
+  border-top: 1px solid white;
+}
+
+#experience {
+  color: white;
+}
+
+img {
+  margin: auto;
+}
+
+button a {
+  font-weight: bold;
+}
+
+footer {
+  margin: auto;
+}
+
+.FooterMessage {
+  padding: 25px;
+  text-align: center;
+}
+
+.btn-secondary {
+  color: blue;
+}

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <h3><div class=text-center>Patients for the next 14 days</div></h3>
+     <table class="table table-dark table-stripped">
+         <thead>
+             <tr>
+                 <th>Patient name</th>
+                 <th>Phone</th>
+                 <th>E-mail</th>
+                 <th>Due Date</th>
+                 <th>Alert status</th>
+             </tr>
+         </thead>
+         <tbody>
+             {% for i in patients %}
+                 <tr>
+                     <td>{{ i["patient_name"] }}</td>
+                     <td>{{ i["patient_phone"] }}</td>
+                     <td>{{ i["patient_mail"] }}</td>
+                     <td>{{ i["due_date"] }}</td>
+                     <td>{{ i["status"] }}</td>
+                 </tr>
+             {% endfor %}
+         </tbody>
+     </table>
+{% endblock %}

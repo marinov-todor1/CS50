@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Edit Patients
+{% endblock %}
+
+{% block main %}
+    <script src="static/scripts.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', edit_patient);
+    </script>
+    <form action="/edit_patient" method="post">
+        <div class="row justify-content-center">
+            <h5>Edit Patient details</h5>
+        </div>
+        <div class="form-group">
+            <div class="row justify-content-center">
+                    ID: &nbsp;<input class="form-control-sm" name="patient_id" id="pt_id" readonly>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row justify-content-center">
+                Name: &nbsp;<input autocomplete="off" autofocus class="form-control-sm" name="patient_name" type="text" required="required" width=30% id="pt_name" >
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row justify-content-center">
+                Phone: &nbsp;<input class="form-control-sm" name="patient_phone" placeholder="Phone" type="text" required="required" id="pt_phone">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row justify-content-center">
+                Email: &nbsp;<input class="form-control-sm" name="patient_mail" placeholder="Email" type="text" required="required" id="pt_mail">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <h5>Next visit on:</h5><p></p>
+        </div>
+        <div class="form-group">
+            <div class="row justify-content-center">
+                <input class="form-control-sm" name="due_date" placeholder="Next Visit" type="date" required="required" id="d_date">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+
+{% endblock %}

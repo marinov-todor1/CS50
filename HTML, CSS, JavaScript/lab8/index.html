@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+            // TODO: Add code to check answers to questions - write the pseudo code
+
+            function check()
+            {
+                var triggerObject = event.srcElement;
+
+
+                if (triggerObject.value == "Submit")
+                {
+                    if (document.getElementById("txtbox").value == 'Mars')
+                    {
+                        document.getElementById("txtbox").style.backgroundColor = "green";
+                        document.getElementById("answer").innerHTML = "Correct!";
+                        document.getElementById("answer").style.display = "block";
+                    }
+                    else
+                    {
+                        document.getElementById("answer").innerHTML = "Incorrect.";
+                        document.getElementById("answer").style.display = "block";
+                        document.getElementById("txtbox").style.backgroundColor = "red";
+                    }
+                }
+                else if (triggerObject.innerHTML == "Roger Moore")
+                {
+                    triggerObject.style.backgroundColor = "green";
+                    document.getElementById("result").innerHTML = "Correct!";
+                    document.getElementById("result").style.display = "block";
+                }
+                else
+                {
+                    triggerObject.style.backgroundColor = "red";
+                    document.getElementById("result").innerHTML = "Incorrect.";
+                    document.getElementById("result").style.display = "block";
+                    alert(document.getElementById("test").innerHTML);
+                }
+
+            }
+
+            function listen()
+            {
+                document.getElementById("result").style.display = "none";
+                document.getElementById("answer").style.display = "none";
+            }
+
+            document.addEventListener('DOMContentLoaded', listen);
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Which actor starred in a total of seven James Bond movies?</h3>
+                        <button onclick="check(event);">Roger Moore</button>
+                        <button onclick="check(event);">Elvis Presley</button>
+                        <button onclick="check(event);">Nicky Ryan</button>
+                        <button onclick="check(event);">Eddie Murphy</button>
+                        <button onclick="check(event);">Alain Delon</button>
+                        <p id="result"></p>
+                <!-- TODO: Add multiple choice question here -->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What Planet is known as the red planet?</h3>
+                    <form>
+                        <input id="txtbox" type="text">
+                        <input type="button" onclick="check(event);" value="Submit">
+                        <p id="answer"></p>
+                    </form>
+                <!-- TODO: Add free response question here -->
+            </div>
+
+        </div>
+    </body>
+</html>
