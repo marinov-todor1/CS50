@@ -1,5 +1,5 @@
 # CS50
-## This repository is a collection of my course work for the CS50x Introduction to Computer Science course and Introduction to Artificial Intelligence
+## This repository is a collection of my course work for the CS50x Introduction to Computer Science
 
 ### 1. C - https://cs50.harvard.edu/x/2021/weeks/1/
   - C Lab - **Objective: Practice operators**  
